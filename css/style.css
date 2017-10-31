@@ -1,0 +1,281 @@
+body {
+  font-size: 14px;
+  color: #737373;
+  font-family: "Segoe", sans-serif;
+}
+
+.hw {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  height: 488px;
+  background: url("../img/bg.png");
+  padding-top: 60px;
+  z-index: 0;
+}
+
+.header .logo {
+  display: inline-block;
+  opacity: .68;
+  margin-left: 88px;
+}
+
+.logo {
+  margin-left: 88px;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container nav{
+  display: inline-block;
+  float: right;
+  z-index: 100;
+  margin-top: -75px;
+}
+
+.menu {
+  display: inline-block;
+  float: right;
+  z-index: 100;
+}
+
+.container nav a{
+  display: inline-block;
+  list-style-type: none;
+  font-family: "Segoe";
+  font-size: 22px;
+  margin-right: 26px;
+  margin-left: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.cofe {
+  margin-top: 70px;
+}
+
+.foto_cofe {
+  position: absolute;
+  margin-top: -37px;
+  width: 50%;
+  z-index: 2;
+}
+
+.foto_cofe img {
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 117px;
+}
+
+.tabs{
+  padding: 0px;
+  margin: -25px auto;
+}
+
+.demo {
+  position: absolute;
+  margin-left: 505px;
+}
+
+.foto_cofe h1{
+  font-size: 63px;
+  color: #fff;
+  font-weight: 700;
+  margin: 50px 0 15px 12px;
+}
+
+.foto_cofe p{
+  height: 60px;
+  width: 360px;
+  font-size: 44px;
+  color: #fff;
+  margin-left: 12px;
+  margin-bottom: 50px;
+}
+
+.color-botton{
+  background-color: #296f4e;
+}
+
+.foto_cofe .botton{
+  border: 5px solid #353f3a;
+  opacity: .90;
+  margin-left: 12px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 22.63px;
+  padding: 10px 19px;
+}
+
+.tabs input {
+  position: absolute;
+}
+
+.tabs input:checked+label {
+  color: #966a6a;
+  font-weight: 900;
+  border: 1px solid #d7d7d7;
+  border-bottom: 1px solid #fff;
+}
+
+.tabs label {
+  width: 24.7%;
+  display: inline-block;
+  margin: 93px 0 58px;
+  padding: 25px 45px 26px 45px;
+  text-align: center;
+  color: #5c5b5b;
+  font-family: "Segoe", sans-serif;
+  font-size: 25px;
+}
+
+.foto-ipad-center {
+  margin: 0 130px;
+}
+
+.text-ipad h2 {
+  color: #4f4f4f;
+  font-size: 23px;
+  font-family: "Segoe";
+  font-style: "Regular";
+  margin: 0 0 30px 58px;
+}
+
+.text-ipad p {
+  line-height: 2;
+  color: #818181;
+  font-size: 14px;
+  font-family: "Segoe";
+  margin-left: 58px;
+  margin-right: 78px;
+  margin: 0 78px 39px 58px;
+}
+
+.info {
+  padding-top: 20px;
+  border-top: 1px solid #dedede;
+}
+
+.foto_screen img {
+  width: 50%;
+  float: left;
+}
+
+.column-text h3 {
+  font-size: 33px;
+  font-family: "Segoe";
+  margin: 65px 0 30px;
+  padding-left: 507px;
+  padding-top: 31px;
+}
+
+.column-text p {
+  font-size: 16px;
+  font-family: "Segoe";
+  padding-left: 507px;
+  margin-top: 28px;
+}
+
+.column-text {
+  margin-bottom: 97px;
+  position: relative;
+}
+
+/*------registration-------*/
+
+.registration_form {
+  padding-top: 20px;
+  border-top: 1px solid #dedede;
+}
+
+.form1{
+  width: 47%;
+  float: left;
+}
+
+.form1 form p {
+  margin-bottom: 20px;
+  /*margin-left: 20px;*/
+}
+
+.form1 form {
+  background-color: #e67624;
+  border-radius: 3px;
+  margin-left: 12px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 28px;
+  padding: 10px 19px;
+}
+
+.form1 form input {
+  padding: 4px 4px 4px 4px;
+}
+
+.form1 form button {
+  background-color: #444444;
+  font-size: 16px;
+  color: #ffffff;
+  border: 0 solid  #444444;
+  padding: 4px 4px 4px 4px;
+}
+
+.form2{
+  width: 50%;
+}
+
+.form2 form p {
+  margin-bottom: 20px;
+}
+
+.form2 form {
+  background-color: #01d4f3;
+  border-radius: 3px;
+  margin-left: 12px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 28px;
+  padding: 10px 19px;
+}
+
+.form2 form button {
+  background-color: #029bb1;
+  font-size: 16px;
+  color: #ffffff;
+  border: 0 solid  #444444;
+  padding: 4px 4px 4px 4px;
+}
+
+/*--------footer-----------*/
+
+ footer {
+  background-color: #292e29;
+  height: 200px;
+  width: 100%;
+ }
+
+ .col-md4-1 {
+  float: left;
+ }
+ .col-md4-2 {
+  float: left;
+ }
+ .col-md4-3 {
+  float: left;
+ }
+ .col-md4-4 {
+  float: left;
+ }
